@@ -1,0 +1,12 @@
+body {
+	background: #FD8802 url("../Imagem/logo2.gif") no-repeat left top;
+	color: black;
+	text-align: right;
+	text-decoration: underline;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	line-height: 50px;
+	text-shadow: 1px 1px grey;
+	white-space: nowrap;
+	
+}
