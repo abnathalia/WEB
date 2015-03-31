@@ -1,0 +1,44 @@
+body{
+	font-family: "Courier New", monospace;
+	background: black;;
+}
+table,tr,td,th {
+	border: 2px solid pink;
+	border-collapse: collapse;
+	padding: 10px;
+}
+table{
+	width: 15%;
+	height: 15%;
+	margin: 0 auto;
+}
+header{
+	border-style: dashed solid;
+	border-width: 2px;
+	border-color: pink;
+	height: 25px;
+}
+div{
+	width: 900px;
+	margin: 0 auto;
+	background-color: gray;
+}
+nav{
+	border: 1px dashed pink;
+	width:120px;
+	float: left;
+}
+section{
+	padding: 5px;
+	float:left;
+	width: 760px;
+}
+footer{
+	visibility: display;
+	clear: left;
+	border: 1px solid pink;
+}
+ul li{
+	list-style-type: none;
+	display: inline;
+}
