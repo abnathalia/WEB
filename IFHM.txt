@@ -1,0 +1,1 @@
+  A interface de um software é fundamental para relação entre o usuário e o programa para que ambos possam atingir o objetivo da interação. A interface deve ser elaborada visando facilitar a comunicação com o usuario, pois assim a interação sera otimizada e a probabilidade de ocorrerem erros e o usuário desistir da operação será menor.
