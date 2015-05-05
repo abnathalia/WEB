@@ -11,6 +11,7 @@
 			<label for="nome"> Nome: </label>		
 		</fieldset>	
 	</form>
+	
 	<?php
 		spl_autoload_register(null,false);
 		spl_autoload_extensions(".class.php");
@@ -24,7 +25,7 @@
 		}
 		spl_autoload_register("classLoader");
 		
-		$laura = new Cliente("Laura", "120.120.120-12", "321", "1234", 20000, "ContaCorrente");	
+		$laura = new Cliente($_POST ["nome"], $_POST["cpf"], $_POST["agencia"], $_POST["conta"], $_POST["saldo"], $_POST["tipoConta"]);	
 		$laura->getDados();
 		$laura->getConta();
 		$laura->sacar(30);
