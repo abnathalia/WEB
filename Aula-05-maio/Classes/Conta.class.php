@@ -14,8 +14,8 @@ abstract class Conta {
 	
 	}
 	public function sacar ($quantia) {
-		if ($this->saldo >= quantia){
-			$this->saldo -= quantia;		
+		if ($this->saldo >= $quantia){
+			$this->saldo -= $quantia;		
 		}
 		else {
 			echo "Saque maior que o saldo!";		
