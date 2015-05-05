@@ -11,11 +11,19 @@ class Cliente {
 	}
 	
 	public function getDados () {
-		echo $this->nome."cpf".$this->cpf."br";	
+		echo $this->nome." Cpf ".$this->cpf;
 	}
 	
 	public function getConta () {
-		echo "Saldo: ".$this->conta->getSaldo();	
+		echo " Saldo: ".$this->conta->getSaldo();	
+	}
+	
+	public function sacar($quantia) {
+		$this->conta->sacar($quantia);
+	}
+	
+	public function depositar($quantia) {
+		$this->conta->depositar($quantia);
 	}
 }
 ?>
