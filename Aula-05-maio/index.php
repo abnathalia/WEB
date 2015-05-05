@@ -25,6 +25,8 @@
 		}
 		spl_autoload_register("classLoader");
 		
+		if ($_POST) {
+		
 		$laura = new Cliente($_POST ["nome"], $_POST["cpf"], $_POST["agencia"], $_POST["conta"], $_POST["saldo"], $_POST["tipoConta"]);	
 		$laura->getDados();
 		$laura->getConta();
@@ -32,6 +34,7 @@
 		$laura->getConta();
 		$laura->depositar(3000);
 		$laura->getConta();
+		}
 	?>
 </body>
 </html>
